@@ -6,52 +6,98 @@
     <title>Alif Tanoto's portofolio</title>
     <style>
         .container{
-            height:200px;
-            width:100px;}
+            width: 23%;}
             .container:hover{
-            opacity: 1;}
+            opacity: 100%;
+        }
+       
+        body{
+            background-color:rgb(250, 110, 110);
+        }
+        .intro{
+            color: rgb(85, 26, 30);
+        }
+        .Edtab{
+            border: 5px solid black;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            float: left;
+            text-align: left;
+            height: 50%;
             
+        }
+        .Nametab{
+            border: 5px solid black;
+            text-align:center;
+            width: 100%;
+            
+            background-color: rgb(255, 255, 255);
+            float: left;
+        }
+        .Mediatab{
+            border:5px solid black;
+            background-color: rgb(255, 255, 255);
+            height: 50%;
+            width: 50%;
+            float:right;
+        }
     </style>
 </head>
 <body>
-    
+    <div class="Nametab">
     <H1>Name :Alif Tanoto</H1>
     <h3>Student ID and class:2702364950-L1CC</h3>
-    <p>I was born and raised by my family in medan<br>
-        I am skilled at a couple of sports like futsal and badminton<br>
-        </p>
-    <p>Gender</p>
-    <input type="radio"id="perempuan"
-    name="jenis_kelamin"
-    value="perempuan"><label
-    for="perempuan">female</label><br>
-    
-    <input type="radio"id="pria"
-    name="jenis_kelamin"
-    value="pria"checked="checked"><label
-    for="pria">male</label><br>
-    <p>my social media : </p>
-    <a href="https://www.instagram.com/_aliftanoto/">https://www.instagram.com/_aliftanoto/</a><br>
-    <hr />
-    <img src="FOTO ALEP.jpg"class="container"alt="photo"title="Alif Tanoto">
-    <ol>
-        <li>SD Namira Medan</li><a href="http://sdnamira.sch.id">http://sdnamira.sch.id</a>
-        <li>SMP Al Amjad Medan</li>
-        <li>SMA Al Fityan Medan</li>
-        <li>Binus Internasional University</li><a href="https:/binus.ac.id">https://binus.ac.id</a>
-    </ol>
-    <p>My programming skill</p>
-    <input type="checkbox" id="programmingskill1" name="programmingskill1" value="python"checked="checked">
-    <label for="programmingskill1">python</label>
-    
-    <p>My Hobbies</p>
-        
-    
-    <ul>
-        <li>play futsal</li>
-        <li>play badminton</li>
-        <li>Running</li>
-        <li>Swimming</li>
-    </ul>
+    <p class="intro">I was born and raised by my family in medan<br>
+    I am skilled at a couple of sports like futsal and badminton</p><br>
+    </div>    
+<table>
+        <tr>
+            <td>
+                <div class="Edtab">
+                <p>
+                My Education
+                <ol>
+                <li>SD Namira Medan</li><a href="http://sdnamira.sch.id">http://sdnamira.sch.id</a>
+                <li>SMP Al Amjad Medan</li>
+                <li>SMA Al Fityan Medan</li>
+                <li>Binus Internasional University</li><a href="https:/binus.ac.id">https://binus.ac.id</a>
+                </ol>
+                
+               
+               
+                My Hobbies
+                <ul>
+                <li>play futsal</li>
+                <li>play badminton</li>
+                <li>Running</li>
+                <li>Swimming</li>
+                </ul>
+                
+                
+                My programming skill
+                <input type="checkbox" id="programmingskill1" name="programmingskill1" value="python"checked="checked">
+                <label for="programmingskill1">python</label>
+                
+                
+                Gender
+                <input type="radio"id="perempuan"
+                name="jenis_kelamin"
+                value="perempuan"><label
+                for="perempuan">female</label>
+                <br>  
+                <input type="radio"id="pria"
+                name="jenis_kelamin"
+                value="pria"checked="checked"><label
+                for="pria">male</label><br>
+            </div>
+            </td>
+        </tr>
+        <div class="Mediatab">
+            my social media : 
+            <a href="https://www.instagram.com/_aliftanoto/">instagram</a><br>
+            <img src="FOTO ALEP.jpg"class="container"  title="Alif Tanoto">  
+            </div>
+    </table>          
+</body>
 </body>
 </html>
