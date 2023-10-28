@@ -4,100 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alif Tanoto's portofolio</title>
-    <style>
-        .container{
-            width: 23%;}
-            .container:hover{
-            opacity: 100%;
-        }
-       
-        body{
-            background-color:rgb(250, 110, 110);
-        }
-        .intro{
-            color: rgb(85, 26, 30);
-        }
-        .Edtab{
-            border: 5px solid black;
-            width: 100%;
-            background-color: rgb(255, 255, 255);
-            float: left;
-            text-align: left;
-            height: 50%;
-            
-        }
-        .Nametab{
-            border: 5px solid black;
-            text-align:center;
-            width: 100%;
-            
-            background-color: rgb(255, 255, 255);
-            float: left;
-        }
-        .Mediatab{
-            border:5px solid black;
-            background-color: rgb(255, 255, 255);
-            height: 50%;
-            width: 50%;
-            float:right;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 <body>
-    <div class="Nametab">
+    <div class="p-3 mb-2 border bg-primary">
+    <div class="text-center" >
+        <div class="badge bg-primary text-wrap" >
     <H1>Name :Alif Tanoto</H1>
     <h3>Student ID and class:2702364950-L1CC</h3>
-    <p class="intro">I was born and raised by my family in medan<br>
-    I am skilled at a couple of sports like futsal and badminton</p><br>
+    <p class="intro">I am from Medan and this is my first time for me in jakarta<br>
+    my favourite food is anything that has spicy taste</p><br>
+    </div>
+        </div>    
+
+<div class="row">
+    <div class="card"style="width: 18rem;" >
+        <div class="p-3 mb-2 border bg-warning">
+        <p  class="fw-bold">
+            My Education :
+        </p>
+        <ol >
+            <li >SD Namira Medan: <a href="http://sdnamira.sch.id">http://sdnamira.sch.id</a></li>
+            <li >SMP Al Amjad Medan</li>
+            <li >SMA Al Fityan Medan</li>
+            <li >Binus Internasional University: <a href="https:/binus.ac.id">https://binus.ac.id</a></li>
+        </ol>
+        </div>
+    </div>
+   
+    <div class="card"style="width: 20rem;">         
+        <div class="p-3 mb-2 bg-warning">
+        <p  class="fw-bold">
+            My Hobbies:
+        </p>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">play futsal</li>
+            <li class="list-group-item">play badminton</li>
+            <li class="list-group-item">Running</li>
+        </ul>
+        </div>
     </div>    
-<table>
-        <tr>
-            <td>
-                <div class="Edtab">
-                <p>
-                My Education
-                <ol>
-                <li>SD Namira Medan</li><a href="http://sdnamira.sch.id">http://sdnamira.sch.id</a>
-                <li>SMP Al Amjad Medan</li>
-                <li>SMA Al Fityan Medan</li>
-                <li>Binus Internasional University</li><a href="https:/binus.ac.id">https://binus.ac.id</a>
-                </ol>
-                
-               
-               
-                My Hobbies
-                <ul>
-                <li>play futsal</li>
-                <li>play badminton</li>
-                <li>Running</li>
-                <li>Swimming</li>
-                </ul>
-                
-                
-                My programming skill
-                <input type="checkbox" id="programmingskill1" name="programmingskill1" value="python"checked="checked">
-                <label for="programmingskill1">python</label>
-                
-                
-                Gender
-                <input type="radio"id="perempuan"
-                name="jenis_kelamin"
-                value="perempuan"><label
-                for="perempuan">female</label>
-                <br>  
-                <input type="radio"id="pria"
-                name="jenis_kelamin"
-                value="pria"checked="checked"><label
-                for="pria">male</label><br>
-            </div>
-            </td>
+    <div class="card"style="width: 14rem;">
+        <div class="form-check">
+        <p  class="fw-bold">
+            
+            My programming skill :
+        </p>
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">  Python </label>         
+    </div>
+        <br>
+        my social media : 
+        <a href="https://www.instagram.com/_aliftanoto/">instagram</a><br>
+    
+        
+      
+    </div>
+    <div class="card"style="width: 15rem; " >
+        <div class="form-check"></div>
+            <p  class="fw-bold">Gender :</p>
+            <input class="form-check-input"type="radio"id="perempuan"
+            name="jenis_kelamin"
+            value="perempuan"><label class="form-check-label"
+            for="perempuan">female</label>
+
+            <input type="radio"id="pria"class="form-check-input"
+            name="jenis_kelamin"
+            value="pria"checked="checked"><label class="form-check-label"
+            for="pria">male</label><br>
+            <div class="col d-flex justify-content-center">
+            <img src="FOTO ALEP.jpg"  class="img-thumbnail" alt="Cinque Terre" class="container"  class="img-fluid"  title="Alif Tanoto" >  
+        </div>
+        </td>
         </tr>
-        <div class="Mediatab">
-            my social media : 
-            <a href="https://www.instagram.com/_aliftanoto/">instagram</a><br>
-            <img src="FOTO ALEP.jpg"class="container"  title="Alif Tanoto">  
-            </div>
-    </table>          
+    </div>
+</div>
+<br>
+</div>
+       
+       
+
+
+
 </body>
 </body>
 </html>
